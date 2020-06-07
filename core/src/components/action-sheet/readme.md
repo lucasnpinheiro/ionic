@@ -63,12 +63,14 @@ export class ActionSheetExample {
         text: 'Delete',
         role: 'destructive',
         icon: 'trash',
+        src: 'assest/svg/trash.svg',
         handler: () => {
           console.log('Delete clicked');
         }
       }, {
         text: 'Share',
         icon: 'share',
+        src: 'assest/svg/share.svg',
         handler: () => {
           console.log('Share clicked');
         }
@@ -87,6 +89,7 @@ export class ActionSheetExample {
       }, {
         text: 'Cancel',
         icon: 'close',
+        src: 'assest/svg/close.svg',
         role: 'cancel',
         handler: () => {
           console.log('Cancel clicked');
